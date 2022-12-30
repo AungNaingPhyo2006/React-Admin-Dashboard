@@ -1,0 +1,19 @@
+.title_container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.title_container .icon{
+    color: #f94f44;
+    font-size: 22px;
+}
+.title_container .icon .img_icon{
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.title_container .icon .img_icon:hover{
+    box-shadow: 0 0 5px 5px #f94f44;
+    background-color: #f94f44;
+    color: #000;
+    transform: scale(1.1);
+}

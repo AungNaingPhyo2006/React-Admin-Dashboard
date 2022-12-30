@@ -1,0 +1,58 @@
+@media screen and (max-width: 1080px){
+    .App{
+        display: flex;
+        flex-direction: column;
+    }
+    .App .sidebar{
+        position: initial;
+        width: 100%;
+    }
+    .App .sidebar .links{
+        display: none;
+    }
+    .App .sidebar  .version{
+        display: none;
+    }
+    .dashboard{
+        padding: 0 !important;
+        margin-left: 0 !important;
+    }
+    .dashboard .navbar{
+        flex-direction: column;
+    }
+    .dashboard .navbar .title{
+        margin-bottom: 10px;
+        padding: 5px;
+        align-self: center;
+    }
+    .dashboard .navbar .container{
+        flex-direction: column;
+    }
+    .navbar .container .profile{
+        margin-top: 10px;
+        justify-content: center;
+        margin-left: 0 !important;
+    }
+    .dashboard .grid{
+        margin: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .dashboard .grid .gridOne{
+        margin: 0;
+        padding: 0;
+    }
+    .dashboard .grid .gridOne .info{
+        width: 100%;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .dashboard .grid .gridOne .info .inf{
+        border: none;
+        justify-content: flex-start;
+    }
+    .dashboard .grid .gridTwo {
+        grid-template-columns: 1fr !important;
+    }
+}

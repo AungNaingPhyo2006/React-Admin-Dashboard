@@ -1,0 +1,18 @@
+.dashboard{
+    margin-left: 250px;
+    padding: 30px;
+    height: 100%;
+    color: #fff;
+}
+.dashboard .grid{
+    margin-top: 45px;
+}
+.dashboard .grid .gridOne{
+    margin: 30px 0;
+}
+.dashboard .grid .gridTwo{
+    height: 70%;
+    display: grid;
+    grid-template-columns: 0.6fr 1fr;
+    gap: 15px;
+}
